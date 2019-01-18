@@ -1,0 +1,49 @@
+{
+    "name": "fluxdock",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "keywords": [
+        "Electron",
+        "Flowdock"
+    ],
+    "license": "MIT",
+    "repository": "https://github.com/jussini/fluxdock.git",
+    "devDependencies": {
+        "electron": "^4.0.1",
+        "electron-builder": "^20.38.5"
+    },
+    "dependencies": {
+        "electron-context-menu": "^0.10.1"
+    },
+    "build": {
+        "appId": "com.electron.Fluxdock ",
+        "productName": "Fluxdock ",
+        "electronVersion": "4.0.1",
+        "asar": true,
+        "directories": {
+            "app": ".",
+            "output": "dist"
+        },
+        "linux": {
+            "target": [
+                {
+                    "target": "AppImage",
+                    "arch": [
+                        "x64"
+                    ]
+                },
+                {
+                    "target": "snap",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ]
+        }
+    }
+}
