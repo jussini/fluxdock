@@ -21,8 +21,8 @@
         "electron-context-menu": "^0.10.1"
     },
     "build": {
-        "appId": "com.electron.Fluxdock ",
-        "productName": "Fluxdock ",
+        "appId": "com.electron.Fluxdock",
+        "productName": "Fluxdock",
         "electronVersion": "4.0.1",
         "asar": true,
         "directories": {
