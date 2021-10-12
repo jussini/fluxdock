@@ -14,7 +14,7 @@
     "license": "MIT",
     "repository": "https://github.com/jussini/fluxdock.git",
     "devDependencies": {
-        "electron": "^4.0.1",
+        "electron": "^11.5.0",
         "electron-builder": "^20.38.5"
     },
     "dependencies": {
